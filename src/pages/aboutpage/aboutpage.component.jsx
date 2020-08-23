@@ -13,10 +13,7 @@ const AboutPage = () =>(
  and software and possess proven ability of
  balancing multiple work streams within a fast paced,
  demanding environment. With excellent <span className ="text">HTML, CSS (SASS),
-  JavaScript and React</span> development skills,
- currently I’m seeking to continue my career with a vibrant company
- that will allow me to be part of a highly collaborative team, develop my
- technical skills and work on projects for challenging client requirements.
+  JavaScript, mongodb and React</span> development skills.
  For more information on my work, pre-existing skills and background experience
   please review my Github profile.
  </p>

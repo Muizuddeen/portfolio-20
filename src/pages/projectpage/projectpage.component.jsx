@@ -34,6 +34,20 @@ class ProjectPage extends React.Component {
           id: 3,
           linkUrl : 'https://crown-clothing-era.herokuapp.com',
           gitUrl: 'https://github.com/Muizuddeen/crown-clothing'
+        },
+        {
+          title: 'dev connector',
+          imageUrl: 'img/project-4.png',
+          id: 4,
+          linkUrl : 'https://infinite-caverns-66167.herokuapp.com',
+          gitUrl: 'https://github.com/Muizuddeen/DevSocialConnector'
+        },
+        {
+          title: 'github finder',
+          imageUrl: 'img/project-5.png',
+          id: 5,
+          linkUrl : 'https://github-finders.netlify.app',
+          gitUrl: 'https://github.com/Muizuddeen/react-github-finder'
         }
       ]
     };
@@ -42,7 +56,7 @@ class ProjectPage extends React.Component {
       return (
          <div className = 'project-page'>
         <Title className ='title' title = "Projects"/>
-        <div className='directory-menu'>
+        <div className = 'directory-menu'>
           {this.state.sections.map(({ id, ...otherSectionProps }) => (
             <PortfolioItem key={id} {...otherSectionProps} />
           ))}
